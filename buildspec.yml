@@ -11,4 +11,4 @@ phases:
       - mvn package
 artifacts:
   files:
-    - target/snortest.jar
+    - target/snor-test.wargit
