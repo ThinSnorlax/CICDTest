@@ -46,6 +46,9 @@ public class AWSTest {
                 }
             }catch (Exception e) {
                 e.printStackTrace();
+                table_names = new ArrayList<>();
+                table_names.add(e.toString());
+                break;
             }
         }
         if (table_names == null || table_names.size() == 0) {

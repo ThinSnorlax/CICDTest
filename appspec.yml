@@ -1,0 +1,5 @@
+version: 0.0
+os: linux
+files:
+  - source: ./snor-test.war
+    destination: /usr/local/tomcat/apache-tomcat-9.0.16/webapps

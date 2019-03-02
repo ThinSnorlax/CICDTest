@@ -12,3 +12,5 @@ phases:
 artifacts:
   files:
     - target/snor-test.war
+    - appspec.yml
+  discard-paths: yes

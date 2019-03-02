@@ -18,5 +18,4 @@ public class LogUtils {
         System.out.println(log);
     }
 
-
 }
