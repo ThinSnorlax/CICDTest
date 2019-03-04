@@ -11,6 +11,6 @@ phases:
       - mvn package
 artifacts:
   files:
-    - target/snor-test.war
+    - target/snor-test-v1.0.war
     - appspec.yml
   discard-paths: yes
