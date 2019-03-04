@@ -5,4 +5,4 @@ files:
     destination: /usr/local/tomcat/apache-tomcat-9.0.16/webapps
 hooks:
   BeforeInstall:
-    - location: ./rm-old-war-file.sh
+    - location: /home/ec2-user/rm-old-war-file.sh
