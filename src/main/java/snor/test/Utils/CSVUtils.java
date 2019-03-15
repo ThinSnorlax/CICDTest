@@ -34,7 +34,7 @@ public class CSVUtils {
         BufferedWriter bw=null;
         try {
              out = new FileOutputStream(file);
-             osw = new OutputStreamWriter(out);
+             osw = new OutputStreamWriter(out, "GBK");
              bw =new BufferedWriter(osw);
              if(dataList!=null && !dataList.isEmpty()){
                  for(String data : dataList){

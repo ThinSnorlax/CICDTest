@@ -16,7 +16,7 @@ public class CdnProcess {
 
     public String BillPath = "C:/Users/hui57/Desktop/工作/bilibili/201901-billing.csv";
     public String Path1 = "C:/Users/hui57/Desktop/工作/bilibili/2018-11-bilibili.csv";
-    public String Path2 = "C:/Users/hui57/Desktop/工作/bilibili/2018-12-bilibili.csv";
+    public String Path2 = "C:/Users/hui57/Desktop/工作/bilibili/2019-02-bilibi.csv";
     public final static String resultBasePath = "D:/JavaResult/";
     List<String> requestsList;
     List<String> price286List;
